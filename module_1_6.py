@@ -15,3 +15,11 @@ print(my_dict)
 
 my_set = {1,2,3,7,2,3,7,1,'Turtle', 0.5}
 print(my_set)
+my_set.update({18, (0.5, 0.7, 0,12)})
+print(type(my_set))
+# my_set.remove('egg') - none
+my_set.discard('Turtle')
+print(my_set)
+
+
+
